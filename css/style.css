@@ -10,15 +10,17 @@ body {
 }
 
 .button-general {
+    text-align: center;
     text-decoration: none;
     color: white;
     background-color: blue;
-    padding: 1%;
+    padding: 5px;
     
 }
 
 /* barra ricerca principale */
 header {
+    font-size: 15px;
     width: 100%;
     min-height: 60px;
     background-color: white;
@@ -53,7 +55,7 @@ nav a {
 
 /* jumbo contain */
 
-main {
+.jumbotron {
     padding-top: 100px;
     display: flex;
     justify-content: center;
@@ -112,6 +114,179 @@ main {
 .jumbo-right img {
     max-width: 500px;
 }
+
+/* business */
+
+.business {
+    width: 45%;
+    min-height: 500px;
+    margin: 0% auto;
+    /* debug */
+    /* background-color: aqua; */
+}
+
+.business span {
+    margin-right: 10px;
+
+}
+
+.business h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+/* colonne business */
+
+.column {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    /* debug */
+    /* background-color: pink; */
+
+}
+
+.column h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.column-general {
+    min-height: 100%;
+    border: 1px solid lightgrey;
+    width: 30%;
+
+}
+
+.title-column {
+    min-height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.contenuto-column {
+    margin: 5% 10%;
+}
+
+
+.contenuto-column li {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.contenuto-column ul {
+    margin-bottom: 30px;
+}
+
+li span {
+    margin-left: 5px;
+}
+
+
+.price {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tempistica {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+
+.acquista-ora {
+    margin: 25px 0;
+
+}
+
+.acquista-ora a {
+    color: blue;
+}
+
+.line {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.contenuto-column h5 {
+    font-size: 12px;
+    margin-bottom: 15px;
+
+}
+
+.spunta {
+    font-weight: bold;
+    font-size: 15px;
+    color: blue;
+}
+
+/* enterprise layout */
+
+.enterpraise-container {
+    display: flex;
+    justify-content: center;
+
+   
+    
+
+}
+
+.enterprise-layout {
+    margin-top: 50px;
+    width: 45%;
+    border: 1px solid lightgray;
+    /* display: flex;
+    justify-content: center; */
+
+}
+
+.contain-flex {
+    margin: 5% 5%;
+    display: flex;
+}
+
+.contenuto-enterprise {
+    width: 70%;
+    
+}
+
+.contain-flex a  {
+    font-size: 10px;
+    max-height: 25px;
+    width: 30%;
+}
+
+.enterprise-layout h4 {
+    margin-bottom: 10px;
+}
+
+.enterprise-layout p {
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
