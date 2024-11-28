@@ -5,8 +5,17 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-size: 12px;
+}
+
+a {
+    font-size: 12px;
 }
 
 .button-general {
@@ -16,6 +25,15 @@ body {
     background-color: blue;
     padding: 5px;
     
+}
+
+#width-container {
+    width: 45%;
+    margin: 0% auto;
+}
+
+.button-general:hover {
+    background-color: rgb(123, 163, 227);
 }
 
 /* barra ricerca principale */
@@ -48,15 +66,20 @@ header img {
 }
 
 nav a {
-    padding: 10px;
+    padding: 20px 10px;
     text-decoration: none;
     color: black;
+    
+}
+
+nav a:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 /* jumbo contain */
 
 .jumbotron {
-    padding-top: 100px;
+    padding-top: 90px;
     display: flex;
     justify-content: center;
     background-color: rgb(127, 214, 227);
@@ -73,7 +96,7 @@ nav a {
 }
 
 .jumbo-container h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 50px;
   
 }
@@ -81,6 +104,7 @@ nav a {
 .jumbo-layout {
     font-size: 12px;
     display: flex;
+    margin-bottom: -40px;
 }
 
 .jumbo-left {
@@ -105,8 +129,9 @@ nav a {
 }
 
 .freccia {
-    margin-top: 40px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 30px;
+
     
 
 }
@@ -118,7 +143,6 @@ nav a {
 /* business */
 
 .business {
-    width: 45%;
     min-height: 500px;
     margin: 0% auto;
     /* debug */
@@ -131,7 +155,7 @@ nav a {
 }
 
 .business h2 {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 30px;
 
 }
@@ -241,7 +265,6 @@ li span {
 
 .enterprise-layout {
     margin-top: 50px;
-    width: 45%;
     border: 1px solid lightgray;
     /* display: flex;
     justify-content: center; */
@@ -270,9 +293,181 @@ li span {
 
 .enterprise-layout p {
     margin-top: 30px;
-    font-size: 12px;
+
 }
 
+/* trova partner */
+
+.contain-partner {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.layout-partner {
+    margin-top: 120px;
+    display: flex;
+    /* debug */
+    /* background-color: aquamarine; */
+}
+
+
+.partner-img {
+    width: 65%;
+
+}
+
+.partner-img img {
+    max-width: 100%;
+}
+
+.partner-description {
+    width: 35%;
+    margin-top: 40px;
+    margin-left: 25px;
+
+
+}
+
+.partner-description h4 {
+    margin-bottom: 20px;
+}
+
+.partner-description p {
+    margin-bottom: 20px;
+}
+
+.partner-description a {
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+ /* business */
+
+ .business-container {
+    display: flex;
+    justify-content: center;
+
+
+ }
+
+ .layout-business {
+    min-height: 900px;
+    margin-top: 120px;
+    /* debug */
+    /* background-color: aqua; */
+
+    
+
+}
+
+.business-container h2 {
+    margin-bottom: 40px;
+}
+
+.card-part {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card-part h4 {
+    margin-bottom: 20px;
+}
+
+ .card {
+    width: 30%;
+    margin-top: 30px;
+    /* debug */
+    /* border: 1px solid black;
+    background-color: bisque; */
+ }
+
+ .card img {
+    max-width: 100%;
+    
+ }
+
+ /* titolo informativo e link */
+
+ .scopri {
+    margin-top: 30px;
+    margin-bottom: 100px;
+ }
+
+/* footer informativo */
+
+footer {
+    background-color: black;
+    min-height: 400px;
+
+}
+
+
+.footer-informativo {
+    display: flex;
+    justify-content: center; 
+    
+
+   
+}
+
+.container-footer {
+    margin-top: 60px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 200px;
+    /* debug */
+    /* background-color: aquamarine; */
+
+}
+
+
+.elenco-footer {
+    width: 18%;
+    border: 1px solid black;
+    color: white;
+}
+
+.elenco-footer h4 {
+    margin-bottom: 10px;
+}
+
+.elenco-footer li {
+    list-style: none;
+    
+
+    
+}
+
+.elenco-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* lingua footer */
+
+.barra-footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+
+}
+
+.lingua {
+    width: 70%;
+    
+}
+
+.world {
+    color: white;
+}
 
 
 
