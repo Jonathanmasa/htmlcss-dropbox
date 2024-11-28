@@ -196,7 +196,7 @@ nav a:hover {
 }
 
 .contenuto-column {
-    margin: 5% 10%;
+    margin: 5% 8%;
 }
 
 
@@ -250,6 +250,10 @@ li span {
     font-weight: bold;
     font-size: 15px;
     color: blue;
+}
+
+.flex-list {
+    display: flex;
 }
 
 /* enterprise layout */
