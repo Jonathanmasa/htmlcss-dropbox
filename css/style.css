@@ -181,12 +181,14 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-#column-general {
+.column-general {
     min-height: 100%;
     border: 1px solid lightgrey;
     width: 30%;
 
 }
+
+
 
 .title-column {
     min-height: 30px;
