@@ -27,7 +27,8 @@ a {
     
 }
 
-#width-container {
+
+.width-container {
     width: 45%;
     margin: 0% auto;
 }
@@ -64,6 +65,7 @@ header img {
     text-align: end;
     margin-right: 10px;
 }
+
 
 nav a {
     padding: 20px 10px;
@@ -131,6 +133,7 @@ nav a:hover {
 .freccia {
     margin-top: 10px;
     font-size: 30px;
+    text-decoration: none;
 
     
 
@@ -178,7 +181,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-.column-general {
+#column-general {
     min-height: 100%;
     border: 1px solid lightgrey;
     width: 30%;
